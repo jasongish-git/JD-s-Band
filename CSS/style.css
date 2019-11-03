@@ -1,0 +1,203 @@
+/*Import statmtent from google fonts website, where we grabbed the font stlye Liu Jian Mao Cao*/
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color: #FF99FF; 
+}
+
+
+/*  */
+#navbar {
+    /* Causes horizonatal alignment of nav links*/
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #FFFF66;
+    height: 45px;
+    justify-content: space-between;
+    padding: 1rem;
+    z-index: 1;
+    
+    
+}
+
+#navbar ul { 
+    /*Gets arid of bullets */
+    list-style: none;
+    /*Causes horiznal alignment of nav links*/
+    display: flex;
+    /*Aligns nav links in the center */
+    align-items: center;
+    
+}
+/*We are creating space between the links by using padding and maargin. a means links */
+#navbar ul li a {
+    padding: 0.75rem;
+    margin: 0  0.25rem;
+}
+
+.promo_area {
+ background: url('photo-1562593623-9731b885cd0d.jpg') no-repeat center center/cover;
+ height: 65vh;
+ color: #00FF00;
+    }
+
+.promo_area h1 {
+text-align: center;
+/*Adding padding aboce header in promo area to bring header down */
+padding-top: 180px;
+}
+
+/* fix here not proper*/
+p {
+text-align: center;
+
+}
+
+
+
+
+/********Merchy and Toury(combined section*******/
+.merchandtour{
+background-color: lightpink;
+/* Seperates the two divs(merchy and toury) under the section horizaontaly*/
+display: flex;
+}
+
+
+
+/******Merchy********/
+.merchandtour .merchy{
+ /*flex grow, to allow merchy and toury to align next to each other*/   
+
+ background-color: lightgreen;
+    flex:1;
+}
+
+.merchandtour .merchy_img {
+    background: url('jens-thekkeveettil-dbWvUqBo0U8-unsplash(1).jpg') no-repeat center center/cover;
+}
+
+
+
+
+/*******Toury********/
+.merchandtour .toury {
+    flex: 1;
+}
+
+
+
+.tour_list_items {
+    list-style: none;
+}
+
+
+footer{
+    background-color: #FFFF66; 
+}
+
+/*Centerd all content inside email div*/
+footer .email  {
+text-align: center;
+}
+
+
+
+
+
+
+/*Container for the merch area and the tour area */
+/*
+.merch_tour_container {
+    display: flex;
+}
+*/
+
+
+
+/*
+html {
+    font-size: 100%;
+}
+header img {
+
+    height: 80px;
+    margin-left: 40px;
+}
+body {    
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: rem-calc(16);
+    color: pink;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: rem-calc(1200);
+}
+
+Header, Promo Area, Tour-Dates Listing, Highlighted Merch Section,footer {    
+    display: block;
+    margin: 0;
+    padding: rem-calc(20);
+    border: 1px solid crimson;
+    color: darkkhaki;
+}
+
+Home Page {
+    background: lightblue;
+    }
+
+.header {
+    background: #a300c7;
+}
+
+.Prom-Area {
+    background-image: url('photo-1562593623-9731b885cd0d.jpg');
+    }
+
+.promo_content h1 {
+    text-align: center;
+   }
+   
+ 
+   .promo_content p {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #00c753;
+      }
+   
+.flex-container {
+    @media screen and (min-width: 640x){
+        display: flex;
+    }    
+}
+
+.Tour-Date Listing {
+    flex: 1;
+    background:#c70039;
+}
+
+.Highlighted-Merch Section {
+    flex: 0 1 300px;
+    border: 1px #c846ff;
+    background: teal;
+}
+
+.footer {
+    border: 1px #f00;
+    background:  wheat;
+}
+
+*/
