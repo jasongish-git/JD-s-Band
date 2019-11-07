@@ -1,0 +1,113 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  ul {
+    list-style: none;
+  }
+    
+  a { 
+    text-decoration: none;
+    color: #333;
+  }
+   
+ .body {
+
+
+    background-image:
+    url('jens-thekkeveettil-dBWvUqBoOU8-unsplash(1).jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+header {
+font-family: italic;
+color: #ff9999;
+background-color: purple;
+height: 40px;
+margin-top: -21px;
+padding: 5px;
+}
+
+.navbar {
+overflow: hidden;
+background-color: purple;
+width: 100%
+}
+
+.navbar a {
+  float: right;
+  font-size: 1.2em;
+  color: #ff8080;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar a:hover {
+  background-color: gray;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 80px 80px 80px 80px;
+gap: .5px;
+margin: 5px;
+color: tomato;
+font-family: serif;
+font-size: 1em;
+font-weight: 600;
+text-shadow:
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+}
+
+.grid-container div {
+padding: 3px;
+background: gold; 
+padding: 20px;
+border: 1px solid purple;
+}
+
+.band-intro {
+color: #ff471a;
+font-family: monospace;
+font-size: 1em;
+font-weight: 600;
+text-shadow:
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+}
+
+h3 {
+color: gold;
+}
+
+.Image-wrapper {
+display: flex;
+width: 500px;
+height: 400px;
+border: 2px solid gold;
+}
+
+footer {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+font-size: .75em;
+text-align: center;
+text-shadow:
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+margin: 0;
+padding: 20px;
+} 
