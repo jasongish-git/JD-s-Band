@@ -8,7 +8,7 @@
 
 }
 
-.logo{
+.logo {
     font-family: 'Liu Jian Mao Cao', cursive;
     color: #FF99FF; 
 }
@@ -24,7 +24,7 @@
     height: 45px;
     justify-content: space-between;
     padding: 1rem;
-    z-index: 1;
+    /*z-index: 1;
     
     
 }
@@ -38,12 +38,6 @@
     align-items: center;
     
 }
-/*We are creating space between the links by using padding and maargin. a means links */
-/*#navbar ul li a {
-    padding: 0.75rem;
-    margin: 0  0.25rem;
-}
-
 .promo_area {
  background: url('photo-1562593623-9731b885cd0d.jpg') no-repeat center center/cover;
  height: 65vh;
@@ -52,19 +46,8 @@
 
 .promo_area h1 {
 text-align: center;
-/*Adding padding aboce header in promo area to bring header down */
-/*padding-top: 180px;
-}*/
-/*styling a highlighted merch section*/
-/*{
-    margin: 0;
-    padding: 0;
-    background-color: #ffffcc;
-} 
-/*.to create a rounded image*/
-/* to style the image
-*/
-body {
+}
+.body {
     height: 125vh;
     background-image: url('photo-1562593623-9731b885cd0d.jpg');
    /* background-image: url('francesco-ungaro-8LOp69ILKF8-unsplash.jpg');*/
@@ -73,59 +56,10 @@ body {
     margin-top: 80px;
     padding: 30px;
 }
-
-
-
-
-
-
-
-
-
-/*
-img{
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right:auto;
-    display:block;
-/* fix here not proper*/
-/*p {
-text-align: center;
-
-}
-
-/********Merchy and Toury(combined section*******/
-/*.merchandtour{
-background-color: lightpink;
-/* Seperates the two divs(merchy and toury) under the section horizaontal
-display: flex;
-}*/
-
-
-
-/******Merchy********/
-/*.merchandtour .merchy{
- /*flex grow, to allow merchy and toury to align next to each other*/   
-
- /*background-color: lightgreen;
-    flex:1;
-}
-
 .merchandtour .merchy_img {
     background: url('jens-thekkeveettil-dbWvUqBo0U8-unsplash(1).jpg') no-repeat center center/cover;
 }
-
-
-
-
-/*******Toury********/
-/*.merchandtour .toury {
-    flex: 1;
-}
-*/
-
-
-.tour_list_items {
+.url_list_items {
     list-style: none;
 }
 
@@ -138,44 +72,7 @@ footer{
 footer .email  {
 text-align: center;
 }
-
-
-
-
-
-
-/*Container for the merch area and the tour area */
-/*
-.merch_tour_container {
-    display: flex;
-}
-*/
-
-
-
-/*
-html {
-    font-size: 100%;
-}
-header img {
-
-    height: 80px;
-    margin-left: 40px;
-}
-body {    
-    margin: 0;
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: rem-calc(16);
-    color: pink;
-}
-
-.wrapper {
-    margin: auto;
-    max-width: rem-calc(1200);
-}
-*/
-Header, Promo Area, Tour-Dates Listing, Highlighted Merch Section,footer {    
+.Header, Promo Area, Tour-Dates Listing, Highlighted Merch Section,footer {    
     display: block;
     margin: 0;
     padding: rem-calc(20);
@@ -229,4 +126,3 @@ Home Page {
     background:  wheat;
 }
 
-*/
